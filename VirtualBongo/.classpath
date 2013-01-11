@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
@@ -16,3 +17,21 @@
 	<classpathentry kind="lib" path="src/tritonus_share.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="src/core.jar"/>
+	<classpathentry kind="lib" path="src/SimpleOpenNI.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="VirtualBongo/src/dlls"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="src/controlP5.jar"/>
+	<classpathentry kind="lib" path="src/SoundCipher.jar"/>
+	<classpathentry kind="lib" path="src/oscP5.jar"/>
+	<classpathentry kind="lib" path="src/minim.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
+>>>>>>> branch 'master' of https://github.com/deadhub/MPI-Projekt.git

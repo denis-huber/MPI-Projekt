@@ -12,6 +12,7 @@ public class Main extends PApplet{
 	KinectScelleton scel;
 	int sizeX, sizeY; // Dimensions of the game field
 	int usersInGame = 0;
+	Sound sound;
 	
 
 public void setup() {
@@ -24,15 +25,17 @@ public void setup() {
 	frameRate(50);
 	smooth();
 	userList = new ArrayList<Integer>();
+	sound = new Sound(this);
 }	
 
 
 public void draw() {
 	
 			background(255);
-			// update the cam
 			scel.update();
 			image(scel.soni.depthImage(),0,0);
+			//sound.play();
+			
 
 			switch (usersInGame) {
 
@@ -99,6 +102,7 @@ public void draw() {
 				PApplet.println("  Failed to calibrate user !!!");
 				scel.soni.requestCalibrationSkeleton(userId, true);
 			}
+			sound.stop(this);
 		}
 
 }

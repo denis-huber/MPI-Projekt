@@ -12,6 +12,9 @@ public class Main extends PApplet{
 	KinectScelleton scel;
 	int sizeX, sizeY; // Dimensions of the game field
 	int usersInGame = 0;
+	PVector rightHand;
+	PVector leftHand;
+	static int handPointSize = 20;
 	
 
 public void setup() {
@@ -34,12 +37,17 @@ public void draw() {
 			scel.update();
 			image(scel.soni.depthImage(),0,0);
 
+			// draw proto bongo:
+			fill(10,30,50);
+			rect(100, 100, 20, 20);
 			switch (usersInGame) {
 
 			case 1:
 				scel.drawSkeleton(userList.get(0));
-				//				rightPad = scel.getVectorForRightHand(userList.get(0));
-				//				leftPad = scel.getVectorForLeftHand(userList.get(0));
+				rightHand = scel.getVectorForRightHand(userList.get(0));
+				leftHand = scel.getVectorForLeftHand(userList.get(0));
+				ellipse(rightHand.x, rightHand.y, handPointSize, handPointSize);
+				ellipse(leftHand.x, leftHand.y, handPointSize, handPointSize);
 				break;
 			case 2:
 				scel.drawSkeleton(userList.get(0));

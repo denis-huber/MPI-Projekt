@@ -102,7 +102,7 @@ public void draw() {
 				PApplet.println("  Failed to calibrate user !!!");
 				scel.soni.requestCalibrationSkeleton(userId, true);
 			}
-			sound.stop(this);
+			//sound.stop(this);
 		}
 
 }

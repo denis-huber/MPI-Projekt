@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
@@ -17,7 +16,6 @@
 	<classpathentry kind="lib" path="src/tritonus_share.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
-=======
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
@@ -34,4 +32,3 @@
 	<classpathentry kind="lib" path="src/minim.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
->>>>>>> branch 'master' of https://github.com/deadhub/MPI-Projekt.git

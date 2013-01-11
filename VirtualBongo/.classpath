@@ -5,5 +5,8 @@
 	<classpathentry kind="lib" path="src/core.jar"/>
 	<classpathentry kind="lib" path="src/SimpleOpenNI.jar"/>
 	<classpathentry kind="lib" path="src/controlP5.jar"/>
+	<classpathentry kind="lib" path="src/SoundCipher.jar"/>
+	<classpathentry kind="lib" path="src/oscP5.jar"/>
+	<classpathentry kind="lib" path="src/minim.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

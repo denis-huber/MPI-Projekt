@@ -8,5 +8,11 @@
 	<classpathentry kind="lib" path="src/SoundCipher.jar"/>
 	<classpathentry kind="lib" path="src/oscP5.jar"/>
 	<classpathentry kind="lib" path="src/minim.jar"/>
+	<classpathentry kind="lib" path="src/jl1.0.jar"/>
+	<classpathentry kind="lib" path="src/jsminim.jar"/>
+	<classpathentry kind="lib" path="src/minim-spi.jar"/>
+	<classpathentry kind="lib" path="src/mp3spi1.9.4.jar"/>
+	<classpathentry kind="lib" path="src/tritonus_aos.jar"/>
+	<classpathentry kind="lib" path="src/tritonus_share.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
